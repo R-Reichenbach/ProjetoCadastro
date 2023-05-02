@@ -20,7 +20,7 @@
 
 $sql = "INSERT INTO usuario (nome_usuario, email_usuario, telefone_usuario, senha_usuario)";
 
-    $sql .= " VALUES ('".$nome."', '".$email."', '".$fone."', '".$senha."')";
+    $sql .= " VALUES ('".$nome."', '".$email."', '".$telefone."', '".$senha."')";
 
     echo $sql. "<br>";
     $result = mysqli_query($con, $sql);
