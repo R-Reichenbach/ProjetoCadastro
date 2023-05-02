@@ -14,4 +14,11 @@ CREATE TABLE usuario
     senha_usuario varchar(30) NOT NULL
     );
 
+/*
+-- inserir dados
+INSERT INTO usuario
+(nome_usuario, email_usuario, fone_usuario, senha_usuario) 
+values ('CASSIO', '(18) 3622-9046', 'cassio@mail.com', '1234');
 
+select * from usuario;
+*/
