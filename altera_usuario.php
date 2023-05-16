@@ -38,6 +38,7 @@
         <label for="senha">senha</label>
         <input type="password" name="senha" id="senha" value="<?php echo $row['senha']?>">
     </div>
+    
 
     <div>
         <button type="submit" value="Salvar">Salvar</button>

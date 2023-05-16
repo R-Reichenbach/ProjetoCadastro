@@ -17,6 +17,8 @@
         senha='$senha'
         WHERE id_usuario=$id_usuario";
 
+    $sql = "DELETE usuario WHERE id_usuario";    
+
 
     echo $sql;
     $result = mysqli_query($con, $sql);
