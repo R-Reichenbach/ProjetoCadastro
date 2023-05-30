@@ -2,7 +2,6 @@
 
     include("conexao.php");
 
-    if(isset($_FILES['foto']));
     $pasta_destino = 'fotos/';
     $extensao = strtolower(substr($_FILES['foto']['name'], -4));
     $nome_foto = $pasta_destino . date("Ymd-His") . $extensao;
